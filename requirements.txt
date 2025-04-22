@@ -1,0 +1,44 @@
+# Base requirements
+streamlit==1.27.2
+moviepy==1.0.3
+pydantic>=2.0.0,<2.11.0
+langchain==0.1.20
+langchain-anthropic==0.1.1
+langchain-openai==0.0.2
+langchain-community==0.0.38
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+python-dotenv==1.0.0
+pydub==0.25.1
+requests==2.31.0
+uuid==1.30
+tiktoken==0.6.0  # For token counting with OpenAI tokenizers
+
+# Fixed dependencies that address conflicts
+numpy==1.26.4  # Compatible with streamlit, langchain, and other packages
+packaging==23.2  # Compatible with streamlit and langchain-core
+Pillow>=10.0.0  # Modern version compatible with Python 3.13
+
+# Whisper and related dependencies
+git+https://github.com/openai/whisper.git
+torch>=2.6.0
+torchaudio>=2.6.0
+transformers>=4.37.2
+accelerate>=0.26.1
+
+# Additional dependencies
+imageio==2.33.1
+decorator<5.0,>=4.0.2
+tqdm==4.66.1
+scipy>=1.12.0
+audiofile==1.1.0
+opencv-python==4.8.1.78
+urllib3>=1.26.0  # For URL handling
+yt-dlp  # For YouTube and social media downloads
+
+# Standard library packages (not actually installed by pip)
+# os
+# time
+# datetime
+# warnings
+# urllib.request
