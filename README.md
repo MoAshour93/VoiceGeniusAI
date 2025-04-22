@@ -610,26 +610,6 @@ Contributions to VoiceGenius AI are welcome! Here's how to contribute effectivel
 5. **Update documentation** to reflect your changes
 6. **Submit a pull request** with a clear description of the improvement
 
-### Development Setup
-
-1. Clone your fork:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/VoiceGenius-AI.git
-   ```
-
-2. Set up development environment:
-   ```bash
-   cd VoiceGenius-AI
-   python -m venv venv
-   source venv/bin/activate  # or venv\Scripts\activate on Windows
-   pip install -e ".[dev]"  # Install with development dependencies
-   ```
-
-3. Run tests:
-   ```bash
-   pytest tests/
-   ```
-
 ### Code Standards
 
 - Follow PEP 8 style guidelines
