@@ -8,7 +8,7 @@
 
 **VoiceGenius AI** is a comprehensive application that transforms speech to text and enables sophisticated conversations with audio/video content through multiple AI models. This powerful tool processes media from various sources, transcribes spoken content with high accuracy, and provides an interactive question-answering system using local and cloud-based language models. Extract insights, analyze content, and compare responses from different LLMs - all through an intuitive Streamlit interface.
 
-![VoiceGenius AI Screenshot](https://your-screenshot-url.png) <!-- Replace with actual screenshot URL when available -->
+![VoiceGenius AI Screenshot](https://github.com/MoAshour93/VoiceGeniusAI/blob/main/Cover%20Image.png) <!-- Replace with actual screenshot URL when available -->
 
 ## 📑 Table of Contents
 
